@@ -21,7 +21,7 @@ parametros_list =[
 name_excel=[]
 
 path_download="D:\Descargas"
-path_to_move = "D:\Descargas\DataQA"
+path_to_move = "D:\Descargas\WScrapp-OEFA"
 
 def open_browser(estaciones, parametros):
 
