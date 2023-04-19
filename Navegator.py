@@ -14,7 +14,7 @@ estaciones_list = [
   ]
 parametros_list =[
   {"id":1, "nombre":'PM2.5'},
-  {"id":3, "nombre":'PM10'},
+  {"id":2, "nombre":'PM10'},
   {"id":4, "nombre":'CO'},
   ]
 
