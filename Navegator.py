@@ -50,6 +50,9 @@ def open_browser(estaciones, parametros):
       #Seleccionar año
       select_fecha_y = driver.find_element(by = By.XPATH, value='/html/body/div[4]/div[1]/table/thead/tr[2]/th[2]')
       select_fecha_y.click()
+      #Desplazar al año 2022
+      select_fecha_y_2021 = driver.find_element(by = By.XPATH, value='/html/body/div[4]/div[2]/table/thead/tr[2]/th[1]')
+      select_fecha_y_2021.click()
       #Desplazar al año 2021
       select_fecha_y_2021 = driver.find_element(by = By.XPATH, value='/html/body/div[4]/div[2]/table/thead/tr[2]/th[1]')
       select_fecha_y_2021.click()
